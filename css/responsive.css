@@ -2,14 +2,6 @@
 
 /* Untuk layar sangat kecil (mobile < 400px) */
 @media (max-width: 400px) {
-  .opening-content,
-  .guestbook-form,
-  section#profile,
-  section#gift {
-    padding: 12px 4px;
-    width: 98vw;
-    max-width: 99vw;
-  }
   .hero-content h1 {
     font-size: 2em;
   }
@@ -22,14 +14,6 @@
 
 /* Untuk layar mobile (max-width: 600px) */
 @media (max-width: 600px) {
-  .opening-content,
-  .guestbook-form,
-  section#profile,
-  section#gift {
-    width: 98vw;
-    max-width: 99vw;
-    padding: 18px 6px;
-  }
   #hero {
     height: 60vh;
     padding: 20px 0;
@@ -51,7 +35,6 @@
     margin-top: 30px;
   }
   .count-box {
-    min-width: 40px;
     padding: 10px 2px;
   }
   .rekening-box {
@@ -66,14 +49,6 @@
 
 /* Untuk layar tablet (max-width: 900px) */
 @media (max-width: 900px) {
-  section#location .wedding-party {
-    width: 95vw;
-    padding: 15px;
-  }
-  .guestbook-form {
-    width: 95vw;
-    max-width: 99vw;
-  }
   .guestbook-list {
     width: 95vw;
     max-width: 99vw;
@@ -106,5 +81,8 @@
   }
   .guestbook-list {
     max-width: 600px;
+  }
+  .gift-content {
+    width: 50%;
   }
 }
