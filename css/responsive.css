@@ -1,0 +1,110 @@
+/* Responsive Design */
+
+/* Untuk layar sangat kecil (mobile < 400px) */
+@media (max-width: 400px) {
+  .opening-content,
+  .guestbook-form,
+  section#profile,
+  section#gift {
+    padding: 12px 4px;
+    width: 98vw;
+    max-width: 99vw;
+  }
+  .hero-content h1 {
+    font-size: 2em;
+  }
+  .mail-icon,
+  #music-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Untuk layar mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .opening-content,
+  .guestbook-form,
+  section#profile,
+  section#gift {
+    width: 98vw;
+    max-width: 99vw;
+    padding: 18px 6px;
+  }
+  #hero {
+    height: 60vh;
+    padding: 20px 0;
+  }
+  .hero-content h1 {
+    font-size: 2.2em;
+  }
+  .hero-content h2 {
+    font-size: 1em;
+  }
+  .groom img,
+  .bride img {
+    max-width: 60vw;
+  }
+  .icon a>img {
+    width: 1.5em;
+  }
+  .hiasan {
+    margin-top: 30px;
+  }
+  .count-box {
+    min-width: 40px;
+    padding: 10px 2px;
+  }
+  .rekening-box {
+    padding: 12px 8px;
+    font-size: 0.7em;
+  }
+  .guestbook-list {
+    width: 98vw;
+    max-width: 99vw;
+  }
+}
+
+/* Untuk layar tablet (max-width: 900px) */
+@media (max-width: 900px) {
+  section#location .wedding-party {
+    width: 95vw;
+    padding: 15px;
+  }
+  .guestbook-form {
+    width: 95vw;
+    max-width: 99vw;
+  }
+  .guestbook-list {
+    width: 95vw;
+    max-width: 99vw;
+  }
+}
+
+/* Untuk layar besar (min-width: 1200px) */
+@media (min-width: 1200px) {
+  .opening-content,
+  .guestbook-form {
+    max-width: 500px;
+  }
+    .profile-item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 70vw
+    }
+  #hero {
+    height: 80vh;
+    padding: 80px 0;
+  }
+  .hero-content h1 {
+    font-size: 4em;
+  }
+  .groom img,
+  .bride img {
+    max-width: 350px;
+  }
+  .guestbook-list {
+    max-width: 600px;
+  }
+}
